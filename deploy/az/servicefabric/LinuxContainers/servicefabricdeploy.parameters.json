@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "dev-testapp-sflinux-cluster"
+        },
+        "clusterLocation": {
+            "value": "eastus"
+        },
+        "computeLocation": {
+            "value": "eastus"
+        },
+        "adminUserName": {
+            "value": "vany0114"
+        },
+        "adminPassword": {
+            "value": "Your_complex_Pass@word1"
+        },
+        "nicName": {
+            "value": "NIC-testonsflin"
+        },
+        "publicIPAddressName": {
+            "value": "testonsflin-PubIP"
+        },
+        "dnsName": {
+            "value": "dev-testapp-sflinux-cluster"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-testApplicationonsflin"
+        },
+        "lbName": {
+            "value": "LB-testApplicationonsflin"
+        },
+        "lbIPName": {
+            "value": "LBIP-testApplicationonsflin"
+        },
+        "vmImageSku": {
+            "value": "16.04-LTS"
+        },
+        "vmImageVersion": {
+            "value": "latest"
+        },
+        "vmImagePublisher": {
+            "value": "Canonical"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "webMvcHttpPort": {
+            "value": 32776
+        },
+        "webapi1HttpRule": {
+            "value": 32775
+        },
+        "webapi2HttpRule": {
+            "value": 32774
+        }
+    }
+}

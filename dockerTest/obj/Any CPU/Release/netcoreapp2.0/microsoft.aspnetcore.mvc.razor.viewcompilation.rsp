@@ -1,0 +1,12 @@
+C:\Users\vany0\source\repos\dockerTest\dockerTest
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=dockerTest
+--content-root=C:\Users\vany0\source\repos\dockerTest\dockerTest
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\About.cshtml
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\Contact.cshtml
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\Error.cshtml
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\Index.cshtml
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\_Layout.cshtml
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\_ValidationScriptsPartial.cshtml
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\_ViewImports.cshtml
+--file=C:\Users\vany0\source\repos\dockerTest\dockerTest\Pages\_ViewStart.cshtml

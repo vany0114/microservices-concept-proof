@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  dockertest:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+      - ConnectionString=${AZURE_WEBSITE_DB:-Server=sql.data;Database=WebSiteDb;User Id=sa;Password=Pass@word}
+      - EventBusConnection=${SERVICE_BUS_CONNECTION:-rabbitmq}
+      - ApplicationInsights__InstrumentationKey=${INSTRUMENTATION_KEY:-}
+      - Webapi1Url=http://webapi1
+    ports:
+      - "32776:80"
+
+  webapi1:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+      - ConnectionString=${AZURE_API1_DB:-Server=sql.data;Database=Api1Db;User Id=sa;Password=Pass@word}
+      - EventBusConnection=${SERVICE_BUS_CONNECTION:-rabbitmq}
+      - ApplicationInsights__InstrumentationKey=${INSTRUMENTATION_KEY:-}
+    ports:
+      - "32775:80"
+
+  webapi2:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+      - ConnectionString=${AZURE_WEBSITE_DB:-mongodb://nosql.data}
+      - EventBusConnection=${SERVICE_BUS_CONNECTION:-rabbitmq}
+      - Database=Api2Db
+      - ApplicationInsights__InstrumentationKey=${INSTRUMENTATION_KEY:-}
+    ports:
+      - "32774:80"
+
+  sql.data:
+    environment:
+      - MSSQL_SA_PASSWORD=Pass@word
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Developer
+    ports:
+      - "5433:1433"
+
+  nosql.data:
+    ports:
+      - "27017:27017"

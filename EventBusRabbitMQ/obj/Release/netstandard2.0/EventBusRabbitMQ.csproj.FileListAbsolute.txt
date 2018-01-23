@@ -1,0 +1,11 @@
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBusRabbitMQ.deps.json
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBusRabbitMQ.dll
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBusRabbitMQ.pdb
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBus.dll
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\bin\Release\netstandard2.0\EventBus.pdb
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.csprojResolveAssemblyReference.cache
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.AssemblyInfoInputs.cache
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.AssemblyInfo.cs
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.dll
+C:\Users\vany0\source\repos\dockerTest\EventBusRabbitMQ\obj\Release\netstandard2.0\EventBusRabbitMQ.pdb

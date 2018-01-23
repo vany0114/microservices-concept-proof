@@ -1,0 +1,1 @@
+C:\Users\vany0\source\repos\dockerTest\ServiceFabric\Linux\Bus\obj\x64\Debug\Bus.sfproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\dockerTest.deps.json
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\dockerTest.runtimeconfig.json
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\dockerTest.runtimeconfig.dev.json
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\dockerTest.dll
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\dockerTest.pdb
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\EventBus.dll
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\EventBusRabbitMQ.dll
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\EventBusRabbitMQ.pdb
+C:\Users\vany0\source\repos\dockerTest\dockerTest\bin\Release\netcoreapp2.0\EventBus.pdb
+C:\Users\vany0\source\repos\dockerTest\dockerTest\obj\Release\netcoreapp2.0\dockerTest.csprojResolveAssemblyReference.cache
+C:\Users\vany0\source\repos\dockerTest\dockerTest\obj\Release\netcoreapp2.0\dockerTest.csproj.CoreCompileInputs.cache
+C:\Users\vany0\source\repos\dockerTest\dockerTest\obj\Release\netcoreapp2.0\dockerTest.AssemblyInfoInputs.cache
+C:\Users\vany0\source\repos\dockerTest\dockerTest\obj\Release\netcoreapp2.0\dockerTest.AssemblyInfo.cs
+C:\Users\vany0\source\repos\dockerTest\dockerTest\obj\Release\netcoreapp2.0\dockerTest.dll
+C:\Users\vany0\source\repos\dockerTest\dockerTest\obj\Release\netcoreapp2.0\dockerTest.pdb

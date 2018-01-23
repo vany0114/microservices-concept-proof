@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="microservices-test-webapi1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\vany0\\source\\repos\\dockerTest\\webApi1\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="webApi1.Api1Context" description="" value="Server=tcp:aioria.database.windows.net,1433;Initial Catalog=Api1Db;Persist Security Info=False;User ID=vany0114;Password=Pass@word;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\vany0\\source\\repos\\dockerTest\\webApi1\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\webApi1\.Api1Context\.sql$" />
+  </parameter>
+</parameters>

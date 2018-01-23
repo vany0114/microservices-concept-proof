@@ -1,0 +1,15 @@
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\webApi2.deps.json
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\webApi2.runtimeconfig.json
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\webApi2.runtimeconfig.dev.json
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\webApi2.dll
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\webApi2.pdb
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\EventBus.dll
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\EventBusRabbitMQ.dll
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\EventBusRabbitMQ.pdb
+C:\Users\vany0\source\repos\dockerTest\webApi2\bin\Any CPU\Debug\netcoreapp2.0\EventBus.pdb
+C:\Users\vany0\source\repos\dockerTest\webApi2\obj\Any CPU\Debug\netcoreapp2.0\webApi2.csprojResolveAssemblyReference.cache
+C:\Users\vany0\source\repos\dockerTest\webApi2\obj\Any CPU\Debug\netcoreapp2.0\webApi2.csproj.CoreCompileInputs.cache
+C:\Users\vany0\source\repos\dockerTest\webApi2\obj\Any CPU\Debug\netcoreapp2.0\webApi2.AssemblyInfoInputs.cache
+C:\Users\vany0\source\repos\dockerTest\webApi2\obj\Any CPU\Debug\netcoreapp2.0\webApi2.AssemblyInfo.cs
+C:\Users\vany0\source\repos\dockerTest\webApi2\obj\Any CPU\Debug\netcoreapp2.0\webApi2.dll
+C:\Users\vany0\source\repos\dockerTest\webApi2\obj\Any CPU\Debug\netcoreapp2.0\webApi2.pdb

@@ -1,0 +1,9 @@
+C:\Users\vany0\source\repos\dockerTest\EventBus\bin\Release\netstandard2.0\EventBus.deps.json
+C:\Users\vany0\source\repos\dockerTest\EventBus\bin\Release\netstandard2.0\EventBus.dll
+C:\Users\vany0\source\repos\dockerTest\EventBus\bin\Release\netstandard2.0\EventBus.pdb
+C:\Users\vany0\source\repos\dockerTest\EventBus\obj\Release\netstandard2.0\EventBus.csprojResolveAssemblyReference.cache
+C:\Users\vany0\source\repos\dockerTest\EventBus\obj\Release\netstandard2.0\EventBus.csproj.CoreCompileInputs.cache
+C:\Users\vany0\source\repos\dockerTest\EventBus\obj\Release\netstandard2.0\EventBus.AssemblyInfoInputs.cache
+C:\Users\vany0\source\repos\dockerTest\EventBus\obj\Release\netstandard2.0\EventBus.AssemblyInfo.cs
+C:\Users\vany0\source\repos\dockerTest\EventBus\obj\Release\netstandard2.0\EventBus.dll
+C:\Users\vany0\source\repos\dockerTest\EventBus\obj\Release\netstandard2.0\EventBus.pdb

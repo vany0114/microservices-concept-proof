@@ -1,0 +1,1 @@
+C:\Users\vany0\source\repos\dockerTest\ServiceFabric\Linux\NoSql\obj\x64\Debug\NoSql.sfproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\Users\vany0\source\repos\dockerTest\webApi2
+--output-path=obj\Any CPU\Debug\netcoreapp2.0\
+--application-name=webApi2
+--content-root=C:\Users\vany0\source\repos\dockerTest\webApi2
+--file=

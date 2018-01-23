@@ -1,0 +1,52 @@
+version: '3'
+
+services:
+  dockertest:
+    image: webmvc:dev
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_dockertest$
+    volumes:
+      - C:\Users\vany0\source\repos\dockerTest\dockerTest:/app
+      - C:\Users\vany0\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_dockertest$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_dockertest$ bin/Debug/netcoreapp2.0/dockerTest.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+  webapi1:
+    image: webapi1:dev
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_webapi1$
+    volumes:
+      - C:\Users\vany0\source\repos\dockerTest\webApi1:/app
+      - C:\Users\vany0\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_webapi1$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_webapi1$ bin/Debug/netcoreapp2.0/webApi1.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+
+  webapi2:
+    image: webapi2:dev
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_webapi2$
+    volumes:
+      - C:\Users\vany0\source\repos\dockerTest\webApi2:/app
+      - C:\Users\vany0\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_webapi2$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_webapi2$ bin/Debug/netcoreapp2.0/webApi2.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+

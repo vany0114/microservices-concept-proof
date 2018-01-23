@@ -1,0 +1,1 @@
+C:\Users\vany0\source\repos\dockerTest\ServiceFabric\Linux\testOnServiceFabricWebMVC\obj\x64\Debug\testOnServiceFabricWebMVC.sfproj.CoreCompileInputs.cache
